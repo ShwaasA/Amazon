@@ -1,13 +1,10 @@
 body{
 	background: black;
-	color: orange;
+    color: orange;
 	font-family: sans-serif;
 }
-.amzn_img{
-	display: block;
-	margin: auto;
-    width: 525px;
-    height: 185px;
+.product{
+	color: #ff7200;
 }
 ul{
 	text-align: center;
@@ -32,11 +29,13 @@ nav li{
 	display: inline;
 	text-align: center;
 }
+h1{
+	font-size: 60px;
+}
 a img{
 	width: 300px;
 	height: 300px;
 	padding: 5px;
-
 }
 a img:hover{
 	animation-name: animate;

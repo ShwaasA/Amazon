@@ -1,0 +1,62 @@
+body{
+	background: black;
+	color: orange;
+	font-family: sans-serif;
+}
+ul{
+	text-align: center;
+}
+ul a{
+	text-decoration: none;
+	color: orange;
+}
+ul a:hover{
+	text-decoration: none;
+	color: #ff7200;
+}
+ul li:after{
+	content: "|";
+	padding: 10px;
+}
+.last:after{
+	content: none;
+}
+nav li{
+	font-size: 26px;
+	display: inline;
+	text-align: center;
+}
+h1{
+	font-size: 45px;
+	text-align: center;
+}
+.price{
+	font-size: 35px;
+	text-align: center;
+}
+.kindle img{
+	width: 650px;
+	height: 467px;
+}
+.about{
+	margin-right: 200px;
+	margin-left: 200px;
+}
+form{
+	padding-left: 20px; 
+}
+label{
+	font-size: 30px;
+}
+input{
+	width: 300px;
+	font-size: 20px;
+}
+.cart{
+	width: 310px;
+	height: auto;
+}
+.log{
+	width: 300px;
+	height: auto;
+}

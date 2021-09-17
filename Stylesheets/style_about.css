@@ -1,0 +1,42 @@
+body{
+	background: black;
+	color: orange;
+	font-family: sans-serif;
+}
+.about_hd{
+	color: #ff7200;
+}
+ul{
+	text-align: center;
+}
+ul a{
+	text-decoration: none;
+	color: orange;
+}
+ul a:hover{
+	text-decoration: none;
+	color: #ff7200;
+}
+ul li:after{
+	content: "|";
+	padding: 10px;
+}
+.last:after{
+	content: none;
+}
+nav li{
+	font-size: 26px;
+	display: inline;
+	text-align: center;
+}
+h1{
+	font-size: 60px;
+}
+img{
+	width: 835px;
+	height: 525px;
+}
+.about{
+	margin-right: 200px;
+	margin-left: 200px;
+}
